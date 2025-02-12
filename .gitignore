@@ -1,0 +1,6 @@
+/target
+/tests
+/redsharp/data/redsharp/function/generate.mcfunction
+/redsharp/data/redsharp/function/nodes.mcfunction
+/redsharp/data/redsharp/function/edges.mcfunction
+*.redstone
