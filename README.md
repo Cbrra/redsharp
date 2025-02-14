@@ -1,7 +1,7 @@
 # Red# (In development)
 
 > [!WARNING]
-> Red# is currently in active development, it DOES NOT WORK. Well, it does but only for very specific codes. If you want to help please reach out to on Discord.
+> Red# is currently in active development, it DOES NOT WORK. Well, it does but only for very specific codes. If you want to help please reach out to me on Discord.
 
 Red# (pronounced "Red Sharp") is a programming language that compiles directly inside your Minecraft world using redstone. The language is very simple and will be very slow in-game. This is just a fun development project; it will not create efficient redstone nor help you build a computer in Minecraft. The files use the `.redstone` extension.
 
@@ -33,7 +33,7 @@ You can see three components, from left to right:
 - The integer `1`
 - The adder
 
-I modified the values for the screenshot, but as you can see, it successfully computes `1 + 3 = 4`. (The lamps represent the 8-bit binary values of the numbers.)
+I modified the values for the screenshot (`i` equals 1, and the `1` was changed to 3), but as you can see, it successfully computes `1 + 3 = 4`. (The lamps represent the 8-bit binary values of the numbers.)
 
 > [!IMPORTANT]
 > The biggest issue right now is the redstone pathfinding. It takes a long time, and some paths fail to generate. That is the main issue at the moment.
@@ -66,7 +66,7 @@ let i = 0;
 
 // Counter
 loop {
-    wait(5); // wait 1 seconds
+    wait(1); // wait 1 seconds
     i += 1;
 
     if i == 5 {
@@ -87,7 +87,7 @@ debug("test");
 ---
 The `display` and `print` functions
 ```
-let screen = display(8); // Create a 8 bits display
+let screen = display(8); // Create a 8-bit display
 print(screen, 5); // Print 5 on the display
 
 // Alternatively, you can use:
